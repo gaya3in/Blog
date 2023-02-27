@@ -1,0 +1,10 @@
+config.py
+__pycache__/
+migrations/
+env/
+.vscode
+0001_initial.py
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+

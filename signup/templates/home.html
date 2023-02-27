@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+   <div class="box-element">
+                <table class="table">
+                    <tr>
+                        <th><h5>User Type:</h5><strong>{{user.user_type}}</strong> </th>
+                        <th><h5>First Name:</h5><strong>{{user.first_name}}</strong> </th>
+                        <th><h5>Last Name:</h5><strong>{{user.last_name}}</strong> </th>
+                        <th><h5>Email:</h5><strong>{{user.email}}</strong> </th>
+                        <th><h5>Username:</h5><strong>{{user.username}}</strong> </th>
+                        <th><h5>Address Line1:</h5><strong>{{user.address_line1}}</strong> </th>
+                        <th><h5>Address City:</h5><strong>{{user.address_city}}</strong> </th>
+                        <th><h5>Address State:</h5><strong>{{user.address_state}}</strong> </th>
+                        <th><h5>Address Pincode:</h5><strong>{{user.address_pincode}}</strong> </th>
+                        
+                    </tr>
+                </table>
+            </div>
+{% endblock %}
